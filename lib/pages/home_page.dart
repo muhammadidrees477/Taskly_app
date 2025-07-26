@@ -38,8 +38,9 @@ class _HomePageState extends State<HomePage> {
           style: TextStyle(fontSize: 25),
         ),
       ),
-      body: _taskView(),
+      body: Column(children: [ _taskView()]),
       floatingActionButton: _addTaskButton(),
+
     );
   }
 
