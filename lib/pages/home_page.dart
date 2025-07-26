@@ -39,8 +39,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: Column(children: [
-        Spacer(),
-        Spacer(),
+
         _taskView()]),
       floatingActionButton: _addTaskButton(),
 
